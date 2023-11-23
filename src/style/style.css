@@ -1,0 +1,105 @@
+*{
+    margin:0;
+}
+.flex-container{
+    margin-top: 150px;
+    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 25%;
+    height: 100px;
+    border: 2px;
+    border-radius: 20px; 
+}
+.text-title{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+}
+.caja-content1{
+    margin-top: 50px;
+    margin-left: -3%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: gray;
+    width: 72%;
+    height: 150px;
+    border: 2px;
+    border-radius: 60px 60px 0 0; 
+}
+.caja-content{
+    margin-top: 5px;
+    margin-left: -3%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: gray;
+    width: 72%;
+    height: 150px;
+    border: 2px;
+}
+.caja-content2{
+    margin-top: 5px;
+    margin-left: -3%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: gray;
+    width: 72%;
+    height: 150px;
+    border: 2px;
+    border-radius: 0 0 60px 60px; 
+}
+.caja-content3{
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 40%;
+    height: 100px;
+    border: 2px;
+    border-radius: 15px 15px 15px 15px;
+}
+.lista1{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+.lista2{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+.elementos{
+    margin-left: 50px;
+}
+.primer-elemento{
+    margin-left: 50px;
+}
+.elemento-total{
+    margin-left: 35%;
+    font-size: 4rem;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+.text-button{
+    text-decoration: none;
+    font-size: 4rem;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.link{
+    text-decoration: none;
+}

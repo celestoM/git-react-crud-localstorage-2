@@ -1,0 +1,126 @@
+*{
+    margin:0;
+}
+.flex-container-a{
+    margin-top: 150px;
+    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 25%;
+    height: 100px;
+    border: 2px;
+    border-radius: 20px; 
+}
+.text-title-a{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+}
+.caja-content1-a{
+    margin-top: 100px;
+    margin-left: 15%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    background-color: gray;
+    width: 70%;
+    height: 300px;
+    border: 2px;
+    border-radius: 60px 60px 0 0; 
+}
+.caja-content2-a{
+    margin-top: 5px;
+    margin-left: 15%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    background-color: gray;
+    width: 70%;
+    height: 300px;
+    border: 2px;
+    border-radius: 0 0 0 0; 
+}
+.caja-content3-a{
+    margin-top: 5px;
+    margin-left: 15%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    background-color: gray;
+    width: 70%;
+    height: 300px;
+    border: 2px;
+    border-radius: 0 0 60px 60px; 
+}
+.caja-content4-a{
+    margin-top: 5px;
+    margin-left: 5%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 30%;
+    height: 80px;
+    border: 2px;
+    border-radius: 15px 15px 15px 15px; 
+}
+.content-button-a{
+    margin-left: 12%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 150px;
+}
+.text-content-a{
+    margin-top: -2%;
+    margin-left: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+.input-a{
+    margin-top: 2%;
+    margin-left: 16%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 2px;
+    border-radius: 30px 30px 30px 30px;
+    width: 65%;
+    height: 80px;
+}
+
+.text-button-a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.link-a{
+    text-decoration: none;
+}
+.square-button {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según el tamaño deseado del botón */
+    background-color: grey; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto */
+    border: none; /* Elimina el borde */
+    text-align: center;
+    text-decoration: none; /* Elimina la decoración del texto */
+    font-size: 2.5rem; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
